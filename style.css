@@ -9,18 +9,18 @@ body {
 }
 
 #partner-logos, #deploy, #developers, #business, #service, #reviews, #cta, #footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #partner-logos h2 {
     font-size: 14px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 #partner-logos a {
     font-size: 16px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #0069ff;
 }
 
@@ -33,6 +33,14 @@ body {
     font-size: 24px;
 }
 
+#developers img {
+    max-width: 300px;
+}
+
+#developers .piccolo {
+    font-size: 16px;
+}
+
 #business p {
     font-size: 19px;
 }
@@ -42,9 +50,7 @@ body {
     margin-bottom: 18px;
 }
 
-
-
-#footer {
+#footer, #footer-bottom {
     background-color: #010e28;
 }
 
@@ -60,6 +66,25 @@ body {
     font-size: 14px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+#footer-bottom hr {
+    border: 1px solid hsla(0, 0%, 100%, .5);
+}
+
+#footer-bottom p {
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 14px;
+}
+
+#cta {
+    background-image: url("img/jumbo-background.jpg");
+}
+
+#cta h2 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
 }
 
 .footer-wrapper {}
@@ -107,7 +132,13 @@ p {
 }
 
 .imgwrapper img {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 100px;
     object-fit: contain;
+}
+
+.btn.btn-default.btn-lg {
+    color: #0069ff;
+    padding-left: 30px;
+    padding-right: 30px;
 }
