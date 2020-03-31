@@ -2,17 +2,87 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+#jumbotron {
+    padding-top: 200px;
+    background-image: url("img/jumbo-background.jpg");
+    background-size: cover;
+}
+
+#partner-logos, #deploy, #developers, #business, #service, #reviews, #cta, #footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#partner-logos h2 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+#partner-logos a {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #0069ff;
+}
+
+#deploy p {
+    font-size: 16px;
+}
+
+#jumbotron p {
+    color: rgba(3, 27, 78, .7);
+    font-size: 24px;
+}
+
+#business p {
+    font-size: 19px;
+}
+
+#footer {
+    background-color: #010e28;
+}
+
+#footer a {
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, .5);
+    display: block;
+    padding-bottom: 10px;
+}
+
+#footer h4 {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-wrapper {}
+
 h1 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: bold;
     color: white;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #031b4e;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #031b4e;
+}
+
+p {
+    font-size: 20px;
+    color: rgba(3, 27, 78, .7);
+}
 
 .navbar-brand>img {
     height: 50px;
     padding: 0;
-
 }
 
 .navbar-brand {
@@ -25,21 +95,10 @@ h1 {
     line-height: 20px;
 }
 
-
-#jumbotron {
-    padding-top: 200px;
-    background-image: url("img/jumbo-background.jpg");
-    background-size: cover;
-}
-
-
-
-#jumbotron p {
-    color: white;
-    font-size: 24px;
-}
-
 .navbar-default.navbar {
-    padding: 20px 0;
-margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.imgwrapper img {
+    vertical-align: middle;
 }

@@ -13,54 +13,343 @@
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">
-        <img class="img-responsive" alt="Brand" src="img/digitalocean-logo.jpg">
-      </a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Page 2</a></li>
-            <li><a href="#">Page 3</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="img-responsive" alt="Brand" src="img/digitalocean-logo.jpg">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Page 2</a></li>
+                    <li><a href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
 
-          </ul>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
     <section id="jumbotron">
         <div class="container">
-<div class="row">
-    <div class="col-sm-6">
-        <h1 class="text-capitalize">welcome to the developer cloud</h1>
-        <p class="text-capitalize">we make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <h1 class="text-capitalize">welcome to the developer cloud</h1>
+                    <p class="text-capitalize">we make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
 
-    </div>
-    <div class="col-sm-6">
-
-    </div>
-</div>
+                </div>
+                <div class="col-sm-6">
+                    <form class="FORM-TEMPORANEO" action="/examples/actions/confirmation.php" method="post">
+                        <h2>Create an Account</h2>
+                        <p class="hint-text">Sign up with your social media account or email address</p>
+                        <div class="social-btn text-center">
+                            <a href="#" class="btn btn-primary btn-lg"><i class="fa fa-facebook"></i> Facebook</a>
+                            <a href="#" class="btn btn-info btn-lg"><i class="fa fa-twitter"></i> Twitter</a>
+                            <a href="#" class="btn btn-danger btn-lg"><i class="fa fa-google"></i> Google</a>
+                        </div>
+                        <div class="or-seperator"><b>or</b></div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" name="username" placeholder="Username" required="required"
+                                style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control input-lg" name="email" placeholder="Email Address" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-lg" name="password" placeholder="Password" required="required"
+                                style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIUlEQVQ4EX2TOYhTURSG87IMihDsjGghBhFBmHFDHLWwSqcikk4RRKJgk0KL7C8bMpWpZtIqNkEUl1ZCgs0wOo0SxiLMDApWlgOPrH7/5b2QkYwX7jvn/uc//zl3edZ4PPbNGvF4fC4ajR5VrNvt/mo0Gr1ZPOtfgWw2e9Lv9+chX7cs64CS4Oxg3o9GI7tUKv0Q5o1dAiTfCgQCLwnOkfQOu+oSLyJ2A783HA7vIPLGxX0TgVwud4HKn0nc7Pf7N6vV6oZHkkX8FPG3uMfgXC0Wi2vCg/poUKGGcagQI3k7k8mcp5slcGswGDwpl8tfwGJg3xB6Dvey8vz6oH4C3iXcFYjbwiDeo1KafafkC3NjK7iL5ESFGQEUF7Sg+ifZdDp9GnMF/KGmfBdT2HCwZ7TwtrBPC7rQaav6Iv48rqZwg+F+p8hOMBj0IbxfMdMBrW5pAVGV/ztINByENkU0t5BIJEKRSOQ3Aj+Z57iFs1R5NK3EQS6HQqF1zmQdzpFWq3W42WwOTAf1er1PF2USFlC+qxMvFAr3HcexWX+QX6lUvsKpkTyPSEXJkw6MQ4S38Ljdbi8rmM/nY+CvgNcQqdH6U/xrYK9t244jZv6ByUOSiDdIfgBZ12U6dHEHu9TpdIr8F0OP692CtzaW/a6y3y0Wx5kbFHvGuXzkgf0xhKnPzA4UTyaTB8Ph8AvcHi3fnsrZ7Wore02YViqVOrRXXPhfqP8j6MYlawoAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-lg" name="confirm_password" placeholder="Confirm Password" required="required"
+                                style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIUlEQVQ4EX2TOYhTURSG87IMihDsjGghBhFBmHFDHLWwSqcikk4RRKJgk0KL7C8bMpWpZtIqNkEUl1ZCgs0wOo0SxiLMDApWlgOPrH7/5b2QkYwX7jvn/uc//zl3edZ4PPbNGvF4fC4ajR5VrNvt/mo0Gr1ZPOtfgWw2e9Lv9+chX7cs64CS4Oxg3o9GI7tUKv0Q5o1dAiTfCgQCLwnOkfQOu+oSLyJ2A783HA7vIPLGxX0TgVwud4HKn0nc7Pf7N6vV6oZHkkX8FPG3uMfgXC0Wi2vCg/poUKGGcagQI3k7k8mcp5slcGswGDwpl8tfwGJg3xB6Dvey8vz6oH4C3iXcFYjbwiDeo1KafafkC3NjK7iL5ESFGQEUF7Sg+ifZdDp9GnMF/KGmfBdT2HCwZ7TwtrBPC7rQaav6Iv48rqZwg+F+p8hOMBj0IbxfMdMBrW5pAVGV/ztINByENkU0t5BIJEKRSOQ3Aj+Z57iFs1R5NK3EQS6HQqF1zmQdzpFWq3W42WwOTAf1er1PF2USFlC+qxMvFAr3HcexWX+QX6lUvsKpkTyPSEXJkw6MQ4S38Ljdbi8rmM/nY+CvgNcQqdH6U/xrYK9t244jZv6ByUOSiDdIfgBZ12U6dHEHu9TpdIr8F0OP692CtzaW/a6y3y0Wx5kbFHvGuXzkgf0xhKnPzA4UTyaTB8Ph8AvcHi3fnsrZ7Wore02YViqVOrRXXPhfqP8j6MYlawoAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
 
 
         </div>
-</section>
+    </section>
+    <section id="partner-logos">
+        <div class="container">
+            <h2 class="text-uppercase text-center">
+                Innovative businesses trust DigitalOcean
+            </h2>
+
+            <div class="row">
+                <div class="col-xs-6 col-sm-2">
+                    <div class="imgwrapper">
+                        <img class="img-responsive center-block" src="img/docker.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <div class="imgwrapper">
+                        <img class="img-responsive center-block" src="img/gitlab.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <div class="imgwrapper">
+                        <img class="img-responsive center-block" src="img/slack.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <div class="imgwrapper">
+                        <img class="img-responsive center-block" src="img/hashicorp.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <div class="imgwrapper">
+                        <img class="img-responsive center-block" src="img/wework.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <div class="imgwrapper">
+                        <img class="img-responsive center-block" src="img/splunk.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center">
+                <a href="https://www.digitalocean.com/business/"> See business solutions >
+                </a>
+            </div>
+        </div>
+
+    </section>
+    <section id="deploy">
+        <div class="container">
+            <h2 class="text-uppercase text-center">deploy and scale seamlessly</h2>
+            <p class="text-capitalize text-center">our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.
+            </p>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-2">
+                    <ul class="list-group">
+                        <li class="list-group-item">Deploy</li>
+                        <li class="list-group-item">Scake</li>
+                        <li class="list-group-item">Store</li>
+                        <li class="list-group-item">Secure</li>
+                        <li class="list-group-item">Monitor</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-2 col-sm-offset-2">
+                    <h3>Kubernetes in minutes</h3>
+                    <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
+                </div>
+                <div class="col-sm-2">
+                    <h3>Flexible compute types</h3>
+                    <p>With Standard, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-6">
+                    <h3>1-Click App Marketplace</h3>
+                    <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
+                </div>
+                <div class="col-sm-2">
+                    <h3>Global availability</h3>
+                    <p>Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
+                </div>
+
+            </div>
+
+
+    </section>
+    <section id="developers">
+        <div class="container">
+
+
+            <h2 class="text-uppercase text-center">designed for developers</h2>
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+
+
+    <section id="business">
+        <div class="container">
+            <h2 class="text-uppercase text-center">built for business</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <h3 class="text-capitalize">reliable platform</h3>
+                    <p class="text-capitalize">more than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <h3 class="text-capitalize">predictable pricing</h3>
+                    <p class="text-capitalize">leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+
+
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <h3 class="text-capitalize">world class service</h3>
+                    <p class="text-capitalize">free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
+
+
+                </div>
+                <div class="col-sm-6 col-md-3 col-lg-3">
+                    <h3 class="text-capitalize">security and compliance</h3>
+                    <p class="text-capitalize">keep your data protected. Our platform is certified on multiple international standards, including SOC 1 Type II, SOC 2 Type II, ISO/IEC 27001, and PCI-DSS.</p>
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <section id="service">
+        <div class="container">
+            <h2 class="text-uppercase text-center">service your customers around the world from 12 data centers.</h2>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <h2 class="text-uppercase text-center">development teams love DigitalOcean</h2>
+        </div>
+
+
+
+
+
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2 class="text-uppercase text-center">get started now.</h2>
+        </div>
+
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-wrapper">
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-md-offset-1">
+                        <h4 class="text-capitalize">company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Leadership</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Partners</a>
+                        <a href="#">Referral Program</a>
+                        <a href="#">Press</a>
+                        <a href="#">Legal & Security</a>
+                    </div>
+
+
+                </div>
+                <div class="footer-wrapper">
+                    <div class="col-xs-6 col-sm-6 col-md-2">
+                        <h4 class="text-capitalize">products</h4>
+                        <a href="#">Products Overview</a>
+                        <a href="#">Droplets</a>
+                        <a href="#">Kubernetes</a>
+                        <a href="#">Managed Databases</a>
+                        <a href="#">Spaces</a>
+                        <a href="#">Marketplace</a>
+                        <a href="#">Load Balancers</a>
+                        <a href="#">Block Storage</a>
+                        <a href="#">Tools & Integrations</a>
+                        <a href="#">API</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Documentation</a>
+                        <a href="#">Release Notes</a>
+                    </div>
+
+
+                </div>
+                <div class="footer-wrapper">
+                    <div class="col-xs-6 col-sm-6 col-md-2">
+                        <h4 class="text-capitalize">community</h4>
+                        <a href="#">Tutorials</a>
+                        <a href="#">Meetups</a>
+                        <a href="#">Q&A</a>
+                        <a href="#">Write for DOnations</a>
+                        <a href="#">Droplets for Demos</a>
+                        <a href="#">Hatch Startup Program</a>
+                        <a href="#">Shop Swag</a>
+                        <a href="#">Research Program</a>
+                        <a href="#">Currents Research</a>
+                        <a href="#">Open Source</a>
+                    </div>
+
+
+                </div>
+                <div class="footer-wrapper">
+                    <div class="col-xs-6 col-sm-6 col-md-2">
+                        <h4 class="text-capitalize">solutions</h4>
+                        <a href="#">Web & Mobile Apps</a>
+                        <a href="#">Website Hosting</a>
+                        <a href="#">Big Data</a>
+                        <a href="#">Managed Services</a>
+                        <a href="#">Business Solutions</a>
+                    </div>
+
+                </div>
+                <div class="footer-wrapper">
+                    <div class="col-xs-12 col-sm-12 col-md-2">
+                        <h4 class="text-capitalize">contact</h4>
+
+                        <a href="#">Get Support</a>
+                        <a href="#">Trouble Signing In?</a>
+                        <a href="#">Sales</a>
+                        <a href="#">Report Abuse</a>
+                        <a href="#">System Status</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
 </body>
 
 </html>
