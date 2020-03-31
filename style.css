@@ -30,10 +30,12 @@ body {
 
 #deploy h3 {
     margin-top: 0;
+    padding-bottom: 15px;
 }
 
 #deploy p {
     font-size: 16px;
+    padding-bottom: 50px;
 }
 
 #jumbotron p {
