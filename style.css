@@ -150,6 +150,17 @@ form h2 {
     padding-bottom: 30px;
 }
 
+
+#sign-me.button-sign {
+    background-color: transparent;
+    border: 1px solid #0069ff;
+    border-radius: 5px;
+    color: #0069ff;
+    cursor: pointer;
+    padding: 11px 16px 8px;
+}
+
+
 #jumbotron .divider {
     text-align: center;
     color: #5b6987;
@@ -199,7 +210,7 @@ p {
 
 .navbar-brand {
     float: left;
-    height: 100px;
+    
     padding: 0;
     padding-left: 15px;
     padding-right: 30px;
