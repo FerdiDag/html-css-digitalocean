@@ -9,6 +9,10 @@ body {
     padding-bottom: 250px;
 }
 
+#header-top {
+
+}
+
 #partner-logos, #deploy, #developers, #business, #reviews, #cta, #footer {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -210,7 +214,7 @@ p {
 
 .navbar-brand {
     float: left;
-    
+
     padding: 0;
     padding-left: 15px;
     padding-right: 30px;
