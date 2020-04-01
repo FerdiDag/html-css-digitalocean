@@ -54,10 +54,33 @@ body {
     margin: 0 0 16px;
 }
 
-.business-wrapper {
 
-padding-bottom: 40px;
+#business .p-detail {
+    color: #0069ff;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
 
+
+#business .p-detail:after {
+    content: "\f054";
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    vertical-align: middle;
+
+}
+
+
+#partner-logos a:after {
+    content: "\f054";
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    vertical-align: middle;
 
 }
 
@@ -65,6 +88,30 @@ padding-bottom: 40px;
 
 
 
+
+
+
+
+
+
+
+
+
+.business-wrapper {
+    padding-bottom: 40px;
+}
+
+#service {
+    background: #031b4e url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#service h2 {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
 
 #business h3 {
     margin-top: 18px;
