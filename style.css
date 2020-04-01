@@ -13,7 +13,6 @@ body {
     padding-top: 100px;
 }
 
-
 #partner-logos, #deploy, #developers, #business, #reviews, #cta, #footer {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -45,8 +44,8 @@ body {
 }
 
 #jumbotron p {
-        color: #fff;
-        opacity: 0.8;
+    color: #fff;
+    opacity: 0.8;
     font-size: 24px;
 }
 
@@ -150,9 +149,7 @@ body {
     padding-top: 20px;
 }
 
-
 form {
-
     background-color: #fff;
     border-radius: 10px;
 }
@@ -161,7 +158,6 @@ form h2 {
     padding-top: 40px;
     padding-bottom: 30px;
 }
-
 
 #sign-me.button-sign {
     background-color: transparent;
@@ -172,14 +168,13 @@ form h2 {
     padding: 11px 16px 8px;
 }
 
-
 #jumbotron .divider {
     text-align: center;
     color: #5b6987;
     font-size: 16px;
 }
 
-.btn.btn-git  {
+.btn.btn-git {
     font-size: 20px;
     color: #031b4e;
     background: #f2f8ff;
@@ -222,7 +217,6 @@ p {
 
 .navbar-brand {
     float: left;
-
     padding: 0;
     padding-left: 15px;
     padding-right: 30px;
