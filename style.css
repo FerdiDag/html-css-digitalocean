@@ -8,7 +8,7 @@ body {
     background-size: cover;
 }
 
-#partner-logos, #deploy, #developers, #business, #service, #reviews, #cta, #footer {
+#partner-logos, #deploy, #developers, #business,  #reviews, #cta, #footer {
     padding-top: 80px;
     padding-bottom: 80px;
 }
@@ -54,14 +54,12 @@ body {
     margin: 0 0 16px;
 }
 
-
 #business .p-detail {
     color: #0069ff;
     text-decoration: none;
     cursor: pointer;
     font-weight: bold;
 }
-
 
 #business .p-detail:after {
     content: "\f054";
@@ -70,9 +68,7 @@ body {
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
     vertical-align: middle;
-
 }
-
 
 #partner-logos a:after {
     content: "\f054";
@@ -81,21 +77,7 @@ body {
     font-weight: bold;
     font-family: "Font Awesome 5 Free";
     vertical-align: middle;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .business-wrapper {
     padding-bottom: 40px;
@@ -105,12 +87,14 @@ body {
     background: #031b4e url("https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 120px;
 }
 
 #service h2 {
     font-size: 30px;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 #business h3 {
@@ -225,4 +209,44 @@ p {
     border-left-color: #0069ff;
     color: #031b4e;
     font-weight: bold;
+}
+
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+    padding: 11px 10px 10px;
+        border-top: 1px solid hsla(0, 0%, 100%, .5);
+}
+
+.flight-code {
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.flight-cities {
+    color: hsla(0, 0%, 100%, .5);
+    font-size: 13px;
+}
+
+.flight-speed a {
+    color: #00d7d2;
+    font-size: 13px;
+
+}
+
+.flight-speed {
+    text-align: right;
+}
+
+.flight-speed a:after {
+    content: "\f054";
+    padding-left: 5px;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: "Font Awesome 5 Free";
+    vertical-align: middle;
+}
+
+.flight-speed a:hover {
+    cursor:pointer;
+    color: #0069ff;
 }
