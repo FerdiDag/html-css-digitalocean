@@ -9,9 +9,10 @@ body {
     padding-bottom: 250px;
 }
 
-#header-top {
-
+#jumbotron .welcome {
+    padding-top: 100px;
 }
+
 
 #partner-logos, #deploy, #developers, #business, #reviews, #cta, #footer {
     padding-top: 80px;
@@ -44,7 +45,8 @@ body {
 }
 
 #jumbotron p {
-    color: rgba(3, 27, 78, .7);
+        color: #fff;
+        opacity: 0.8;
     font-size: 24px;
 }
 
@@ -144,7 +146,13 @@ body {
     padding-bottom: 20px;
 }
 
+.form-wrapper {
+    padding-top: 20px;
+}
+
+
 form {
+
     background-color: #fff;
     border-radius: 10px;
 }
