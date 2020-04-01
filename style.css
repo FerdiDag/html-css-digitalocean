@@ -43,9 +43,7 @@ body {
     font-size: 24px;
 }
 
-#developers img {
-    max-width: 300px;
-}
+#developers img {}
 
 #developers .piccolo {
     font-size: 16px;
@@ -53,7 +51,20 @@ body {
 
 #business p {
     font-size: 19px;
+    margin: 0 0 16px;
 }
+
+.business-wrapper {
+
+padding-bottom: 40px;
+
+
+}
+
+
+
+
+
 
 #business h3 {
     margin-top: 18px;
@@ -151,4 +162,20 @@ p {
     color: #0069ff;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.list-group-item {
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    border-left: 2px solid #e5e8ed;
+    font-size: 16px;
+    padding: 17px 10px 17px 30px;
+    color: rgba(3, 27, 78, .7);
+}
+
+.list-group-item:first-child {
+    border-left-color: #0069ff;
+    color: #031b4e;
+    font-weight: bold;
 }
