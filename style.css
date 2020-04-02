@@ -67,15 +67,48 @@ p {
     opacity: 0.9;
 }
 
-.btn.btn-git {
-    font-size: 20px;
-    color: #031b4e;
+
+#jumbotron .form-p {
+    color: rgba(3, 27, 78, .7);
+    opacity: 0.8;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+#cta > #cta-button {
+    font-size: 16px;
+    color: #0069ff;
     background: #f2f8ff;
     border: 1px solid rgba(0, 105, 255, .2);
     border-radius: 3px;
     display: inline-block;
     margin-top: 0;
-    width: 47.5%;
+    width: 30%;
+
+}
+
+
+.btn-group-lg>.btn, .btn-lg {
+    width: 100%;
+    background-color: #0069ff;
+    font-size: 16px;
+}
+
+
+
+#github-button, #google-button {
+    background: #f2f8ff;
+border: 1px solid rgba(0,105,255,.2);
+width: 100%;
+}
+
+
+.form-control {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
 }
 
 .form-wrapper {
@@ -85,11 +118,13 @@ p {
 form {
     background-color: #fff;
     border-radius: 10px;
+
 }
 
 form h2 {
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+    font-size: 28px;
 }
 
 .deploy-wrapper {
@@ -158,6 +193,7 @@ form h2 {
 #developers .piccolo {
     margin-top: 40px;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 #business p {
@@ -279,6 +315,7 @@ form h2 {
 
 .reviews-img-wrapper {
     position: relative;
+    padding-bottom: 20px;
 }
 
 .fa-chevron-right {
@@ -366,4 +403,12 @@ form h2 {
 .flight-speed a:hover {
     cursor: pointer;
     color: #0069ff;
+}
+
+.fa-circle {
+margin: 0 2px;
+color: #0069ff;
+font-size: 12px;
+
+
 }
