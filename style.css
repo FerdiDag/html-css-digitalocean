@@ -27,8 +27,8 @@ p {
 
 .container-fluid {
     background-color: white;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .navbar-brand>img {
@@ -109,17 +109,13 @@ p {
     border: 0;
 }
 
-
-
 form {
     margin-top: 120px;
     background-color: #fff;
     border-radius: 10px;
     padding-top: 35px;
-padding-bottom: 50px;
+    padding-bottom: 50px;
 }
-
-
 }
 
 form h2 {
@@ -133,7 +129,6 @@ form h2 {
 }
 
 #jumbotron {
-
     padding-top: 80px;
     background-image: url("img/jumbo-background.jpg");
     background-size: cover;
@@ -141,7 +136,7 @@ form h2 {
 }
 
 #jumbotron .welcome {
-    padding-top: 200px;
+    padding-top: 250px;
 }
 
 #partner-logos, #deploy, #developers, #business, #reviews, #cta, #footer {
@@ -486,6 +481,10 @@ form h2 {
         background-image: url("img/jumbo-background.jpg");
     }
 
+    #header-bottom .navbar-fixed-top {
+        position: initial !important;
+    }
+
     .navbar.navbar-default {
         background-color: #99ccff;
         border: 0;
@@ -498,13 +497,26 @@ form h2 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+
+
+    /*.navbar-fixed-top {
+    position: initial !important;
+    }
+    }   per unfixare navbare*/
+
+
+
+
 }
+
+
+
+
+
 
 
 @media (min-width: 200px) and (max-width: 767px) {
-
-#jumbotron .welcome {
-    padding-top: 100px;
-}
-
+    #jumbotron .welcome {
+        padding-top: 100px;
+    }
 }
