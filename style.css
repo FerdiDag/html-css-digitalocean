@@ -64,7 +64,7 @@ p {
     color: #031b4e;
     font-size: 14px;
     font-weight: 500;
-    margin-right: 8px;
+    margin-right: 0px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -479,9 +479,52 @@ form h2 {
     .collapse.in {
         display: block !important;
     }
+
+    #header-bottom {
+        background-image: url("img/jumbo-background.jpg");
+    }
+
+    #header-bottom .navbar-brand>img {
+        background-image: url("img/jumbo-background.jpg");
+    }
+
+    .navbar.navbar-default {
+        background-color: #99ccff;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .container-fluid-bottom {
+        background-image: url("img/jumbo-background.jpg");
+    }
+
+    .navbar.navbar-default .navbar-collapse {
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    #jumbotron .welcome {
+        padding-top: 100px;
+    }
+
+    .navbar-default.navbar {
+        margin-top: 50px;
+    }
+
+    .header-top-item {
+        color: #031b4e;
+        opacity: 0.9;
+        font-size: 12px;
+    }
 }
 
-@media (min-width: 200px) and (max-width: 992px) {
+/*@media (min-width: 200px) and (max-width: 992px) {
     #header-bottom {
         background-image: url("img/jumbo-background.jpg");
     }
@@ -527,6 +570,7 @@ form h2 {
     }
 }
 
+*/
 /*@media (max-width: 991px) {
     .navbar {
         position: relative;
