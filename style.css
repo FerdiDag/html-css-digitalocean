@@ -47,6 +47,14 @@ p {
     margin-bottom: 0;
 }
 
+
+#header-top .header-top-item {
+    font-size: 11px;
+    opacity: 0.9;
+}
+
+
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
     background-color: white;
@@ -63,10 +71,7 @@ p {
     color: #0069ff;
 }
 
-#header-top {
-    font-size: 11px;
-    opacity: 0.9;
-}
+
 
 #jumbotron .form-p {
     color: rgba(3, 27, 78, .7);
@@ -412,7 +417,7 @@ form h2 {
 .icons-footer {
     text-align: right;
     color: #939eb6;
-    
+
     }
 
 @media (max-width: 992px) {
