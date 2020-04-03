@@ -51,6 +51,8 @@ p {
 #header-top .header-top-item {
     font-size: 11px;
     opacity: 0.9;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 
@@ -419,6 +421,12 @@ form h2 {
     color: #939eb6;
 
     }
+
+    .icons-footer i {
+        font-size: 25px;
+        padding:  26px 10px;
+    }
+
 
 @media (max-width: 992px) {
     .navbar-header {
