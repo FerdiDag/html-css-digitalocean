@@ -48,6 +48,17 @@ p {
     margin-bottom: 0;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+     background-color: hsla(0,0%,100%,.5);
+
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+
+
 #header-top .header-top-item {
     font-size: 11px;
     opacity: 0.9;
@@ -278,12 +289,13 @@ form h2 {
 }
 
 #sign-me.button-sign {
+        margin-top: 5px;
     background-color: transparent;
     border: 1px solid #0069ff;
     border-radius: 5px;
     color: #0069ff;
     cursor: pointer;
-    padding: 11px 16px 8px;
+    padding: 8px 16px 8px;
     margin-right: 15px;
 }
 
@@ -433,6 +445,10 @@ form h2 {
     width: 100%;
     left: 0%;
     z-index: 999999;
+}
+
+.nav-top-right {
+    margin-right: 0px;
 }
 
 @media (max-width: 992px) {
