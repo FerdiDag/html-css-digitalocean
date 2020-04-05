@@ -58,7 +58,6 @@ p {
 }
 
 
-
 #header-top .header-top-item {
     font-size: 11px;
     opacity: 0.9;
@@ -105,6 +104,14 @@ p {
     font-size: 16px;
     color: #0069ff;
 }
+
+#cta-button:hover {
+     background-color: rgba(255,255,255,0.8);
+     color: #0069ff;
+}
+
+
+
 
 #github-button, #google-button {
     background: #f2f8ff;
